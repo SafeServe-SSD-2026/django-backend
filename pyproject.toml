@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "safeserve"
+version = "0.1.0"
+description = "System for restaurant managing"
+authors = ["safeserve-ssd-2026"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.14"
+django = "^6.1.3"
+djangorestframework = "^3.18.3"
+django-cors-headers = "^4.9.0"
+drf-yasg = "^1.21.18"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
