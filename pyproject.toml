@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "System for restaurant managing"
 authors = ["safeserve-ssd-2026"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.14"
@@ -11,6 +12,9 @@ django = "^6.1.3"
 djangorestframework = "^3.18.3"
 django-cors-headers = "^4.9.0"
 drf-yasg = "^1.21.18"
+dj-rest-auth = "^7.2.0"
+django-allauth = "^65.23.0"
+requests = "^2.34.2"
 
 [build-system]
 requires = ["poetry-core"]
